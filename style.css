@@ -22,7 +22,6 @@ body{
     padding: 35px;
     background: #fff;
     border-radius: 10px;
-    box-shadow: 0 10px 15px rgba(0,0,0,0.05);
   }
   .wrapper .input-field{
     opacity: 0;
@@ -177,18 +176,4 @@ li:not(:first-child) span{
       font-size: 17px;
     }
   }
-
-@media (max-width: 518px) {
-  .wrapper .content-box{
-    padding: 10px 15px 0;
-  }
-  .typing-text p{
-    font-size: 18px;
-  }
-  .result-details li{
-    margin-bottom: 10px;
-  }
-  .content button{
-    margin-top: 10px;
-  }
-}            
+       
