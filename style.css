@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+h1{
+  display: flex;
+}
 *{
   margin: 0;
   padding: 0;
@@ -13,7 +16,7 @@ body{
   background: #b78312;
 }
 ::selection{
-  color: #fff;
+  color: white;
   background: blue;
 }
 
@@ -22,6 +25,7 @@ body{
     padding: 35px;
     background: #fff;
     border-radius: 10px;
+    
   }
   .wrapper .input-field{
     opacity: 0;
@@ -176,4 +180,113 @@ li:not(:first-child) span{
       font-size: 17px;
     }
   }
+
+
+
+
+  /* popup */
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    display: grid;
+    place-items: center;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+.title {
+    font-size: larger;
+}
+
+.container {
+    background-color: rgb(104, 230, 209);
+    padding: 20px;
+    margin-top: 20vh;
+    border: 2px solid;
+    border-radius: 5px;
+    height: 40vh;
+    width: 30vw;
+    position: relative;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.753);
+    display: none;
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.wrapper{
+    position: fixed;
+}
+
+
+
+.share-btn img {
+    margin-top: px;
+}
+
+.close {
+    position: absolute;
+    font-size: 20px;
+    cursor: pointer;
+    top: 0px;
+    right: 0px;
+
+}
+
+.socials {
+    display: flex;
+    gap: 5px;
+}
+
+.icon img {
+    height: 40px;
+    width: 40px;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.scale {
+    transform: scale(1);
+    transition: transform 0.5s ease;
+}
+
+.scale:hover {
+    transform: scale(1.1);
+    border: 3px ;
+    border-radius: 10px;
+}
+
+.images:hover {
+    border-radius: 10px;
+}
+
+input {
+    padding: 8px 60px 8px 40px;
+    
+    border-radius: 5px;
+}
+.wrapper a{
+    position: absolute;
+    right: 0px;
+    top: 1px;
+    background-color: chartreuse;
+    text-decoration: none;
+    color: white;
+    padding: 3.5px 5px;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+.link{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
        
