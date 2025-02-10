@@ -5,9 +5,9 @@ timeTag = document.querySelector(".time span b"),
 mistakeTag = document.querySelector(".mistake span"),
 wpmTag = document.querySelector(".wpm span");
 
-
+alert("This is a typing speed application to test your typing speed")
 let timer,
-maxTime = prompt("Enter the desired time in seconds  and click on start"),
+maxTime = prompt("Enter the time you want to type in seconds  and click on start"),
 timeLeft = maxTime,
 charIndex = mistakes = isTyping = 0;
 
